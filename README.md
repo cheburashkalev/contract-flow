@@ -1,11 +1,11 @@
-# FUCK YEA Smart Contract Framework
+# BOLT - Vaulta Smart Contract Framework
 
-An EOS (and Antelope) smart contract framework so easy it'll make you say "Fuck Yea".
+A smart contract framework for Vaulta.
 
 ## Installation
 
 ```
-npm i -g fuckyea
+npm i -g bolt
 ```
 
 ### Using npx
@@ -15,50 +15,50 @@ You can also use `npx` for any of these commands so that you don't need to manua
 For instance:
 
 ```
-npx fuckyea create ...
+npx bolt create ...
 ```
 
 ## Create a new project
 
 ```
-fuckyea create <project_name> [optional_directory] 
+bolt create <project_name> [optional_directory] 
 ```
 
 ## Scaffold a contract, test file, or deployment
 
 ```
-fuckyea scaffold <type(contract|test|deployment)> <name|network> [optional_directory]
+bolt scaffold <type(contract|test|deployment)> <name|network> [optional_directory]
 ```
 
 ## Build
 
 ```
-fuckyea build
+bolt build
 ```
 
 ## Test
 
 ```
-fuckyea test [--build]
+bolt test [--build]
 ```
 
 ## Deploy
 
 ```
-fuckyea deploy <network> [--build]
+bolt deploy <network> [--build]
 ```
 
 ## Want to use a starter kit?
 
 Head over to [the EOS Template Projects Repo](https://github.com/eosnetworkfoundation/template-projects) and see how you can use
-fuckyea to generate starterkit templates.
+bolt to generate starterkit templates.
 
 ## Configs
 
-When you create a project you get a `fuckyea.config.js` file and a `.env` file. 
+When you create a project you get a `bolt.config.js` file and a `.env` file. 
 Inside your `.env` you will put any private keys you need. 
 
-The `fuckyea.config.js` file defines the information needed for deployments.
+The `bolt.config.js` file defines the information needed for deployments.
 In the `networks` key, you can define any key you want that matches a file in the `deployments` directory. 
 
 
@@ -66,7 +66,7 @@ In the `networks` key, you can define any key you want that matches a file in th
 ## Need help?
 
 ```
-fuckyea --help
+bolt --help
 ```
 
 Or come to the antelop devs chat: https://t.me/antelopedevs

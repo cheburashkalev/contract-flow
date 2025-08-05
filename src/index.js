@@ -24,7 +24,7 @@ const sha256 = (data) => {
 
 const program = new Command();
 
-console.log(figlet.textSync("FUCK YEA"));
+console.log(figlet.textSync("BOLT"));
 
 program
     .version("1.0.0")
@@ -164,7 +164,7 @@ program.command("deploy <network>")
             return;
         }
 
-        const configPath = path.join(process.cwd(), 'fuckyea.config.js');
+        const configPath = path.join(process.cwd(), 'bolt.config.js');
         if(!fs.existsSync(configPath)){
             console.error("No config file found");
             return;
