@@ -2,7 +2,7 @@ module.exports = {
     networks:{
         gftestnet: {
             node_url: 'https://dev-history.globalforce.io',
-            chain: 'gf-testnet',
+            chain: 'gftestnet',
             accounts: [
                 {
                     name: 'youraccount',

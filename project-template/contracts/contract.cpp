@@ -1,7 +1,7 @@
 #include <eosio/eosio.hpp>
 using namespace eosio;
 
-CONTRACT mycontract : public contract {
+CONTRACT youraccount : public contract {
     public:
         using contract::contract;
 
