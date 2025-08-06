@@ -18,7 +18,7 @@ function generateId() {
 
 module.exports = class IdService {
     static getProjectId() {
-        const idPath = path.join(process.cwd(), '.bolt_id');
+        const idPath = path.join(process.cwd(), '.contract-flow_id');
         const existingId = fs.existsSync(idPath);
         let id;
 

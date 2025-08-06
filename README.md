@@ -1,11 +1,11 @@
-# BOLT - Vaulta Smart Contract Framework
+# Contract-Flow - Vaulta Smart Contract Framework
 
 A smart contract framework for Vaulta.
 
 ## Installation
 
 ```
-npm i -g bolt
+npm i -g contract-flow
 ```
 
 ### Using npx
@@ -15,50 +15,50 @@ You can also use `npx` for any of these commands so that you don't need to manua
 For instance:
 
 ```
-npx bolt create ...
+npx contract-flow create ...
 ```
 
 ## Create a new project
 
 ```
-bolt create <project_name> [optional_directory] 
+contract-flow create <project_name> [optional_directory] 
 ```
 
 ## Scaffold a contract, test file, or deployment
 
 ```
-bolt scaffold <type(contract|test|deployment)> <name|network> [optional_directory]
+contract-flow scaffold <type(contract|test|deployment)> <name|network> [optional_directory]
 ```
 
 ## Build
 
 ```
-bolt build
+contract-flow build
 ```
 
 ## Test
 
 ```
-bolt test [--build]
+contract-flow test [--build]
 ```
 
 ## Deploy
 
 ```
-bolt deploy <network> [--build]
+contract-flow deploy <network> [--build]
 ```
 
 ## Want to use a starter kit?
 
 Head over to [the EOS Template Projects Repo](https://github.com/eosnetworkfoundation/template-projects) and see how you can use
-bolt to generate starterkit templates.
+contract-flow to generate starterkit templates.
 
 ## Configs
 
-When you create a project you get a `bolt.config.js` file and a `.env` file. 
+When you create a project you get a `contract-flow.config.js` file and a `.env` file. 
 Inside your `.env` you will put any private keys you need. 
 
-The `bolt.config.js` file defines the information needed for deployments.
+The `contract-flow.config.js` file defines the information needed for deployments.
 In the `networks` key, you can define any key you want that matches a file in the `deployments` directory. 
 
 
@@ -66,7 +66,7 @@ In the `networks` key, you can define any key you want that matches a file in th
 ## Need help?
 
 ```
-bolt --help
+contract-flow --help
 ```
 
 Or come to the antelop devs chat: https://t.me/antelopedevs

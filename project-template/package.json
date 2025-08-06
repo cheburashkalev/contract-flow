@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "",
   "scripts": {
-    "build": "npx bolt build",
-    "deploy": "npx bolt deploy",
-    "test": "npx bolt test"
+    "build": "npx contract-flow build",
+    "deploy": "npx contract-flow deploy",
+    "test": "npx contract-flow test"
   },
   "devDependencies": {
     "@eosnetwork/vert": "^1.0.0",

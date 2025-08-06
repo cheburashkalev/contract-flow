@@ -1,9 +1,9 @@
 {
-  "name": "bolt",
+  "name": "contract-flow",
   "version": "1.3.0",
   "main": "src/index.js",
   "bin": {
-    "bolt": "./src/index.js"
+    "contract-flow": "./src/index.js"
   },
   "license": "MIT",
   "scripts": {
