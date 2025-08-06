@@ -1,6 +1,6 @@
-# Contract-Flow - Vaulta Smart Contract Framework
+# Contract-Flow - GlobalForce Smart Contract Framework
 
-A smart contract framework for Vaulta.
+A smart contract framework for GlobalForce.
 
 ## Installation
 
@@ -68,5 +68,3 @@ In the `networks` key, you can define any key you want that matches a file in th
 ```
 contract-flow --help
 ```
-
-Or come to the antelop devs chat: https://t.me/antelopedevs
