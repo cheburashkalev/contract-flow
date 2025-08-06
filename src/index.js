@@ -370,19 +370,20 @@ program.command("deploy <network>")
                         console.log(`Contract already deployed with same code and abi`)
                         return true;
                     }
-
-                    if(ramRequired > 0){
-                        actions.unshift({
-                            account: 'eosio',
-                            name: 'billuserres',
-                            authorization: [session.permissionLevel],
-                            data: {
-                                // @ts-ignore
-                                account: session.actor,
-                                ram: ramRequired,
-                                cpu: 0
-                            },
-                        });
+                    if(network.startsWith('gf')){
+                        if(ramRequired > 0){
+                            actions.unshift({
+                                account: 'eosio',
+                                name: 'billuserres',
+                                authorization: [session.permissionLevel],
+                                data: {
+                                    // @ts-ignore
+                                    account: session.actor,
+                                    ram: ramRequired,
+                                    cpu: 0
+                                },
+                            });
+                        }
                     }
 
                     const contractInstance = new Contract({
